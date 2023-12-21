@@ -1,0 +1,35 @@
+NTHREADS= 32
+SYSDIM= "2D"
+
+DFT= V
+BSE_ALGO= cheev
+
+BANDS= T
+BSE= T
+DTDIAG= T
+CPOL= T
+SPEC= T
+TMCOEF= T
+
+PARAMS_FILE= "tb_hr.dat" 
+KPATH_FILE= "kpoints.dat"
+OUTPUT= "./out/"
+CALC_DATA= "./out/"
+
+COULOMB_POT= "V2DRK"
+EDIEL= 3.51
+
+LC= 18.91
+
+
+MESH_TYPE= "RK2D"
+RK= 120
+
+CSHIFT= 0.01 
+
+ENSPECI=  0.00
+ENSPECF=  4.00     
+NESPEC=   6001
+
+NBANDSC= 4
+NBANDSV= 4
